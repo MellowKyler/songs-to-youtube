@@ -365,7 +365,7 @@ class YouTubeUploader(QObject):
                     self.__wait()
                     playlist_new_button.click()
                     self.__wait()
-					playlist_new_button_create = self.__find(
+                    playlist_new_button_create = self.__find(
                         By.XPATH, Constant.PLAYLIST_NEW_BUTTON_CREATE
                     )
                     playlist_new_button_create.click()
